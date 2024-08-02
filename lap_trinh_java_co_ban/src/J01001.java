@@ -8,7 +8,7 @@ public class J01001 {
         int dai, rong;
         dai = sc.nextInt();
         rong = sc.nextInt();
-        if (dai == 0 || rong == 0) {
+        if (dai <= 0 || rong <= 0) {
             System.out.println("0");
         } else {
             int cv = (dai + rong) * 2;
